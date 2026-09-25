@@ -377,8 +377,8 @@ body {
 
 @media (max-width: 768px) {
     .hero {
-        padding: 110px 4% 50px;
-        min-height: auto;
+        padding: 120px 4% 60px;
+        min-height: 75vh;
     }
 
     .nav,
@@ -499,8 +499,8 @@ body {
 
 @media (max-width: 480px) {
     .hero {
-        padding: 80px 10px 20px;
-        min-height: auto;
+        padding: 110px 10px 50px;
+        min-height: 80vh;
     }
 
     .hero-text {
