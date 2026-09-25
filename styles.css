@@ -499,88 +499,90 @@ body {
 
 @media (max-width: 480px) {
     .hero {
-        padding: 85px 12px 25px;
+        padding: 80px 10px 20px;
         min-height: auto;
     }
 
     .hero-text {
-        padding: 18px 14px;
+        padding: 14px 12px;
         border-radius: 14px;
-        width: 100%;
-        max-width: 360px;
+        width: 90%;
+        max-width: 300px;
         box-shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
     }
 
     .hero-text h1 {
-        font-size: 1.5rem;
-        margin-bottom: 0.45rem;
-        line-height: 1.2;
+        font-size: 1.35rem;
+        margin-bottom: 0.3rem;
+        line-height: 1.18;
     }
 
     .hero-sub {
-        font-size: 0.85rem;
-        line-height: 1.4;
-        margin-bottom: 0.2rem;
+        font-size: 0.78rem;
+        line-height: 1.35;
+        margin-bottom: 0.15rem;
     }
 
     .hero-sub.line2 {
-        font-size: 0.8rem;
-        margin-bottom: 0.9rem;
+        font-size: 0.74rem;
+        margin-bottom: 0.6rem;
     }
 
     .hero-actions {
         flex-direction: column;
         width: 100%;
-        gap: 0.5rem;
+        gap: 0.4rem;
     }
 
     .hero-btn,
     .hero-btn-outline {
         width: 100%;
-        max-width: 240px;
+        max-width: 200px;
         text-align: center;
-        padding: 9px 16px;
-        font-size: 0.85rem;
+        padding: 7px 14px;
+        font-size: 0.78rem;
     }
 
     .landowner-share {
-        margin-top: 14px;
-        font-size: 0.76rem;
-        letter-spacing: 0.06em;
-        gap: 6px;
+        margin-top: 8px;
+        font-size: 0.7rem;
+        letter-spacing: 0.05em;
+        gap: 5px;
     }
 
     .land-share-icon {
-        width: 20px;
+        width: 18px;
     }
 
     .logo-img {
-        height: 40px;
+        height: 38px;
     }
 }
 
 @media (max-width: 360px) {
     .hero-text {
-        padding: 15px 10px;
+        padding: 12px 10px;
+        max-width: 270px;
     }
 
     .hero-text h1 {
-        font-size: 1.35rem;
+        font-size: 1.25rem;
     }
 
     .hero-sub {
-        font-size: 0.78rem;
+        font-size: 0.74rem;
     }
 
     .hero-sub.line2 {
-        font-size: 0.74rem;
+        font-size: 0.7rem;
+        margin-bottom: 0.5rem;
     }
 
     .hero-btn,
     .hero-btn-outline {
-        max-width: 210px;
-        padding: 8px 12px;
-        font-size: 0.8rem;
+        max-width: 180px;
+        padding: 6px 10px;
+        font-size: 0.75rem;
     }
 }
 
